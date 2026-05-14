@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import 'remixicon/fonts/remixicon.css'
 
 import fondo from "./assets/bg.png";
 import sky from "./assets/sky.png"
@@ -85,8 +86,10 @@ function App() {
 
             </div>
             <div className="btmbar absolute bottom-0 w-full px-10 py-10 z-20 bg-linear-to-t from-black to-transparent">
-              <div className="flex gap-4">
-
+              <div className="flex text-white items-center flex-col">
+                <h3 className="font-[Arial] text-l">Scroll Down</h3>
+                <i class="ri-arrow-down-wide-line text-2xl"></i>
+                
               </div>
             </div>
           </div>
